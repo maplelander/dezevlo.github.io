@@ -3,6 +3,13 @@ body {
   text-align: center;
   font-family: "Roboto", sans-serif;
   color: white;
+ 
+}
+
+.background::after {
+ background-image: "/assets/rigby.jpg";
+ opacity: .1;
+ background-size: cover;
 }
 
 a {
